@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const PORT = process.env.PORT
+const PORT = process.env.PORT;
 
 //endpoint que responde un mensaje
 app.get('/', (_req, res) => {
@@ -9,4 +9,4 @@ app.get('/', (_req, res) => {
 
 app.listen(PORT, () => {
     console.log(`Servidor en puerto ${PORT}`);
-})
+});
